@@ -1,0 +1,175 @@
+{
+  "textoOpciones": "",
+  "enunciado": "Estas en un viaje por carretera, pero tu carro se ha averiado en medio de la nada. Ves que al lado de la carretera hay un hotel y parece que no hay nada más cerca. Asi que te acercas para pasar la noche, pero al llegar a recepción vez que el recepcionista es un fantasma.",
+  "opciones": [
+    {
+      "textoOpciones": "Te espantas y huyes al bosque frente al hotel.",
+      "enunciado": "Ha sido una mala decision ya que podrias perderte! Te has encontrado con unos lobos.",
+      "opciones": [
+        {
+          "textoOpciones": "Mantener la calma",
+          "enunciado": "Has logrado alejarte de los lobos, pero ahora no recuerdas de donde venías y te has perdido, además, está muy oscuro y casi no puedes ver nada.",
+          "opciones": [
+            {
+              "textoOpciones": "Encender fogata",
+              "enunciado": "Has logrado encender una fogata que te mantiene caliente, pero te has quedado dormido y la fogata ha provocado un incendio forestal.",
+              "opciones": [ {} ],
+              "esFinal": true
+            },
+            {
+              "textoOpciones": "Intentar encontrar el camino de vuelta",
+              "enunciado": "Te encuentras con una cabanna con las luces encendidas, te acercas a pedir ayuda y sale una anciana que te ofrece hospedarte.",
+              "opciones": [
+                {
+                  "textoOpciones": "Aceptas",
+                  "enunciado": "Entras y la anciana muy amablemente te ofrece un abrigo y comienza a hacerte algunas preguntas inusualmente personales. Luego te ofrece unas galletas y una bebida con un aroma sospechoso.",
+                  "opciones": [
+                    {
+                      "textoOpciones": "Comer",
+                      "enunciado": "¡Era una trampa! Luego de comer te has desmayado y cuando has despertado la anciana te tiene atado y dice que quiere hacer un hechizo para absorber tu juventud y prolongar su vida.",
+                      "opciones": [ {} ],
+                      "esFinal": true
+                    },
+                    {
+                      "textoOpciones": "No comer",
+                      "enunciado": "Sientes que el ambiente esta extraño, notas por el rabillo del ojo que pasan sombras muy rápido y ves por la ventana que afuera el bosque se nota diferente. Intentas irte de la cabaña y cuando llegas a la puerta, la anciana trata de convencerte de que no te vayas porque afuera es peligroso.",
+                      "opciones": [
+                        {
+                          "textoOpciones": "Abrir la puerta e irte corriendo",
+                          "enunciado": "Despues de correr 50 mts, al fin llegas a la carretera y ahora estas en el lugar donde empezo todo, volteas a ver atras y ves que la cabanna ya no esta, tambien notas que el hotel del que huiste tampoco esta, al mismo tiempo, comienza a salir el sol. Felicidades! Has sobrevivido la noche.",
+                          "opciones": [ {} ],
+                          "esFinal": true
+                        },
+                        {
+                          "textoOpciones": "Hacer caso",
+                          "enunciado": "En realidad, todo fue una trampa, la anciana realmente era una bruja y quería usarte para hacer un hechizo que absorbiera tu vida y así prologar la suya.",
+                          "opciones": [ {} ],
+                          "esFinal": true
+                        }
+                      ],
+                      "esFinal": false
+                    }
+                  ],
+                  "esFinal": false
+                },
+                {
+                  "textoOpciones": "Rechazas",
+                  "enunciado": "Piensas que la carretera y el lugar donde dejaste tu auto debe estar cerca, por lo que rechazas a la anciana y sigues buscando, pero ha sido una mala idea porque ahora estas desaparecido. Pasan semanas y nadie puede encontrarte.",
+                  "opciones": [ {} ],
+                  "esFinal": true
+                }
+              ],
+              "esFinal": false
+            }
+          ],
+          "esFinal": false
+        },
+        {
+          "textoOpciones": "Hacer ruidos, parecer que eres grande e intentar ahuyentarlos",
+          "enunciado": "Los lobos te han comido.",
+          "opciones": [{}],
+          "esFinal": true
+        }
+      ],
+      "esFinal": false
+    },
+    {
+      "textoOpciones": "Decides quedarte porque se ve amigable.",
+      "enunciado": "Te han dado la habitacion 237 y te advierten que por nada del mundo debes salir de tu habitacion entre la medianoche y las 3a.m. Tambien que alguien podria entrar en la habitacion, pero no debes verlo.",
+      "opciones": [
+        {
+          "textoOpciones": "No te gusta la extraña situación e intentas irte",
+          "enunciado": "No creiste que podrías escapar tan facilmente verdad? Las puertas y ventanas han desaparecido después de que se dieran cuenta que querías escapar así que ahora no puedes salir",
+          "opciones": [
+            {
+              "textoOpciones": "Correr por el hotel buscando, alguna salida",
+              "enunciado": "El hotel se ha convertido en una caja y ahora estas encerrado para siempre.",
+              "opciones": [ {} ],
+              "esFinal": true
+            },
+            {
+              "textoOpciones": "Gritarle al recepcionista",
+              "enunciado": "Por tus faltas de respeto ahora has sido condenado a quedarte para siempre en el hotel",
+              "opciones": [ {} ],
+              "esFinal": true
+            }
+          ],
+          "esFinal": false
+        },
+        {
+          "textoOpciones": "Aceptas las extrañas condiciones",
+          "enunciado": "Te llevan a tu habitación sin ningún problema y ya son las 23:57. Decides relajarte e intentar dormir. 15 min después se escucha una multitud de personas como si estuvieran en una fiesta en la recepción",
+          "opciones": [
+            {
+              "textoOpciones": "Salir a ver que esta pasando",
+              "enunciado": "¡Tremendo error! Al salir te has dado cuenta de que no había nadie y era una trampa para ponerte a prueba. Lastimosamente no has sobrevivido la noche.",
+              "opciones": [ {} ],
+              "esFinal": true
+            },
+            {
+              "textoOpciones": "Ignorar el ruido y tratar de dormir",
+              "enunciado": "Eso significa que has puesto atención. Hasta ahora estas a salvo... Hasta que escuchas que se abre la puerta y alguien entra a la habitación y te pregunta que te ha parecido el hotel.",
+              "opciones": [
+                {
+                  "textoOpciones": "Volteas a verlo asustado y le preguntas quién #!@ es",
+                  "enunciado": "Te has equivocado! las reglas eran claras y por no seguirlas el hotel ha desaparecido contigo dentro.",
+                  "opciones": [ {} ],
+                  "esFinal": true
+                },
+                {
+                  "textoOpciones": "Lo ignoras",
+                  "enunciado": "Quien está en tu cuarto empieza a molestarse porque no le respondes y empieza a gritar para que lo vuelva a ver.",
+                  "opciones": [
+                    {
+                      "textoOpciones": "Lo vuelves a ver para calmarlo",
+                      "enunciado": "¡Te has equivocado! las reglas eran claras y por no seguirlas el hotel ha desaparecido contigo dentro.",
+                      "opciones": [ {} ],
+                      "esFinal": true
+                    },
+                    {
+                      "textoOpciones": "Lo vuelves a ignorar",
+                      "enunciado": "Cada vez suena más violento, pero al cabo de un rato dejas de escucharlo y ves en tu teléfono que ya son las 4:00 a.m. Como no puedes dormir, sales de tu habitación y te encuentras con un bar donde el cantinero te ofrece un trago.",
+                      "opciones": [
+                        {
+                          "textoOpciones": "Aceptar",
+                          "enunciado": "El trago estaba envenenado. No lograste sobrevivir la noche",
+                          "opciones": [ {} ],
+                          "esFinal": true
+                        },
+                        {
+                          "textoOpciones": "Rechazar",
+                          "enunciado": "Sigues explorando el hotel y en la zona de las piscinas te encuentras con un anciano que te advierte que si no sales del hotel antes de las 6 a.m. te quedaras atrapado el resto de la eternidad.",
+                          "opciones": [
+                            {
+                              "textoOpciones": "Le crees.",
+                              "enunciado": "Felicidades, has escapado pacificamente del hotel y has conseguido irte a casa. Los fantasmas no podian tocarte fisicamente, asi que solo podian atraparte con una de sus trampas o si les faltabas el respeto.",
+                              "opciones": [ {} ],
+                              "esFinal": true
+                            },
+                            {
+                              "textoOpciones": "No le crees.",
+                              "enunciado": "El viejo tenía razón y te has quedado atrapado en el hotel para siempre.",
+                              "opciones": [ {} ],
+                              "esFinal": true
+                            }
+                          ],
+                          "esFinal": false
+                        }
+                      ],
+                      "esFinal": false
+                    }
+                  ],
+                  "esFinal": false
+                }
+              ],
+              "esFinal": false
+            }
+          ],
+          "esFinal": false
+        }
+      ],
+      "esFinal": false
+    }
+  ],
+  "esFinal": false
+}
